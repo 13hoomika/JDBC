@@ -29,22 +29,19 @@ public class ByIdAndField {
 
 
         } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());
         }finally {
-            if (connection != null){
-                try {
+            try {
+                if (connection != null) {
                     connection.close();
-                } catch (SQLException e) {
-                    throw new RuntimeException(e);
                 }
-            }
-            if (statement != null){
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    throw new RuntimeException(e);
+                if(statement!=null){
+                    statement.close();;
                 }
+            }catch (SQLException e){
+                System.out.println(e.getMessage());
             }
+
         }
     }
 }
