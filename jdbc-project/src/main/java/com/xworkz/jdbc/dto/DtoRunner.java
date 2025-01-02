@@ -1,4 +1,4 @@
-//package com.xworkz.jdbc.runner.dto;
+//package com.xworkz.jdbc.dto;
 //
 //public class DtoRunner {
 //    private static DaoImpl thingsDao = new DaoImpl();

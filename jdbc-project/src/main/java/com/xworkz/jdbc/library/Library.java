@@ -1,6 +1,5 @@
-package com.xworkz.jdbc.runner.library;
+package com.xworkz.jdbc.library;
 import java.sql.*;
-import java.util.stream.StreamSupport;
 
 public class Library {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.xworkz.jdbc.runner.dto;
+package com.xworkz.jdbc.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

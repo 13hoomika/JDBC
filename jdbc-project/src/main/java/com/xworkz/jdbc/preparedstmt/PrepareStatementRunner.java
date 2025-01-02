@@ -1,4 +1,4 @@
-package com.xworkz.jdbc.runner.preparedstmt;
+package com.xworkz.jdbc.preparedstmt;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -34,7 +34,8 @@ public class PrepareStatementRunner {
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
-        } finally {
+        }
+        finally {
             try {
                 if(connection != null){
                     connection.close();

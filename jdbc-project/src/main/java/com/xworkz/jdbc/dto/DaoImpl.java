@@ -1,6 +1,6 @@
 //package com.xworkz.jdbc.runner.dao;
 //
-//import com.xworkz.jdbc.runner.dto.ThingsDto;
+//import com.xworkz.jdbc.dto.ThingsDto;
 //
 //import java.sql.Connection;
 //import java.sql.DriverManager;
@@ -13,7 +13,7 @@
 //
 //    @Override
 //    public int save(ThingsDto dto) {
-//        String url = "jdbc:mysql://localhost:3306/library_sys";
+//        String url = "jdbc:mysql://localhost:3306/library_sys"
 //        String user = "root";
 //        String pass = "bhoomika#7";
 //        try {

@@ -17,8 +17,8 @@
 
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId> <!-- pkg name it is defined -->
+      <artifactId>mysql-connector-java</artifactId> <!-- pkg name -->
       <version>8.0.33</version>
     </dependency>
 

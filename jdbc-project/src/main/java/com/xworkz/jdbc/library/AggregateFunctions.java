@@ -1,4 +1,4 @@
-package com.xworkz.jdbc.runner.library;
+package com.xworkz.jdbc.library;
 import java.sql.*;
 
 public class AggregateFunctions {
