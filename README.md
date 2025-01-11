@@ -1,2 +1,2 @@
 # JDBC
-# Java Database Connectivity
+Java Database Connectivity
